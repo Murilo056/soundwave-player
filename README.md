@@ -40,7 +40,9 @@ python main.py
 ---
 
 #🧪 Como Rodar os Testes
+
 Os testes estão na pasta tests/.
+
 Para executá-los: python -m unittest discover -s soundwave/tests
 
 ---
