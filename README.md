@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ---
 
-#▶️ Como Executar
+##▶️ Como Executar
 ```git clone https://github.com/Murilo056/soundwave-player.git```
 ```cd soundwave-player```
 
@@ -39,14 +39,15 @@ Execute o projeto:
 python main.py
 ---
 
-#🧪 Como Rodar os Testes
+##🧪 Como Rodar os Testes
 
 Os testes estão na pasta tests/.
 
 Para executá-los: python -m unittest discover -s soundwave/tests
 
 ---
-#🛠️ Funcionalidades
+##🛠️ Funcionalidades
+
 🎧 Reproduzir músicas da biblioteca ou de playlists
 
 ➕ Adicionar novas músicas (copiadas para a pasta assets)
