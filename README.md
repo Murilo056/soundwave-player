@@ -23,28 +23,6 @@ Instale com:
 ```bash
 pip install -r requirements.txt
 ```
----
-
-#📁 Estrutura de Diretórios
-soundwave/
-├── assets/                # Arquivos .mp3
-├── core/                 # Estruturas: biblioteca, histórico, playlist
-│   ├── music_libary.py
-│   ├── history.py
-│   └── playlist.py
-├── data/                 # Salvamento com pickle
-│   └── storage.py
-├── gui/
-│   └── main_window.py    # Interface gráfica Tkinter
-├── player/               # Estratégias de reprodução e lógica do player
-│   ├── player.py
-│   ├── strategies.py
-│   └── commands.py
-├── tests/                # Testes unitários e de integração
-│   ├── test_music_library.py
-│   └── test_integration_player.py
-├── main.py               # Arquivo principal
-├── requirements.txt
 
 ---
 
