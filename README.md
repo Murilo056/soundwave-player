@@ -27,8 +27,8 @@ pip install -r requirements.txt
 ---
 
 #▶️ Como Executar
-git clone https://github.com/Murilo056/soundwave-player.git
-cd soundwave-player
+```git clone https://github.com/Murilo056/soundwave-player.git```
+```cd soundwave-player```
 
 --
 
