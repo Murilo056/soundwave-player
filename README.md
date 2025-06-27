@@ -42,7 +42,7 @@ git clone https://github.com/Murilo056/soundwave-player.git
 
 3. Execute o player:
 
-python main.py
+python soundwave/main.py
 
 ---
 
