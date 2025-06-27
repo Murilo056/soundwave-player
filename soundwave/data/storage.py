@@ -66,4 +66,5 @@ def load_all_data():
     """
     library = StorageManager.load_library()
     playlists = StorageManager.load_playlists()
-    return library, playlists
+    history = StorageManager.load_history()
+    return library, playlists, history

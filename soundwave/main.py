@@ -37,13 +37,15 @@ def main():
     Função principal que carrega os dados, inicializa os objetos principais do sistema e inicia a interface gráfica.
     """
     # Carrega biblioteca e playlists salvas (se existirem)
-    library, playlist_manager = load_all_data()
+    library, playlist_manager, history = load_all_data()
 
     # Inicializa a biblioteca e gerenciador de playlists caso não existam
     if library is None:
         library = MusicLibrary()
     if playlist_manager is None:
         playlist_manager = PlaylistManager()
+    if history is None:
+        history = HistoryStack()
 
     # Cria a pilha de histórico de músicas tocadas
     history = HistoryStack()
