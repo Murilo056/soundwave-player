@@ -47,8 +47,6 @@ def main():
     if history is None:
         history = HistoryStack()
 
-    # Cria a pilha de histórico de músicas tocadas
-    history = HistoryStack()
 
     # Adiciona músicas da pasta 'assets' à biblioteca (se ainda não estiverem presentes)
     for music in load_musics_from_assets():
