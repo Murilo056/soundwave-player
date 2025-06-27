@@ -38,9 +38,7 @@ pip install -r requirements.txt
 
 git clone https://github.com/Murilo056/soundwave-player.git
 
-2. Acesse a pasta do projeto:
-
-cd soundwave-player
+2. Acesse a pasta do projeto;
 
 3. Execute o player:
 
