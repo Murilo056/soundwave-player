@@ -1,85 +1,107 @@
-🎵 SoundWave Player
-SoundWave Player é um reprodutor de músicas em Python com interface gráfica construída em Tkinter. Ele permite a reprodução de arquivos .mp3, organização da biblioteca com playlists, histórico de reprodução e favoritos — tudo de forma simples, moderna e offline.
+# 🎵 SoundWave Player
 
-🖼️ Interface
-🎼 Biblioteca: lista completa das músicas disponíveis
+**SoundWave Player** é um reprodutor de músicas em Python com interface gráfica construída em Tkinter.  
+Ele permite a reprodução de arquivos `.mp3`, organização da biblioteca com playlists, histórico de reprodução e favoritos — tudo de forma simples, moderna e offline.
 
-📁 Playlists: crie, edite e exclua playlists com músicas personalizadas
+---
 
-🕘 Histórico: visualize as últimas músicas tocadas
+## 🖼️ Interface
 
-🎮 Controles: reproduzir, pausar, parar, avançar, retroceder, ajustar volume e favoritar músicas
+- 🎼 **Biblioteca**  
+  Lista completa das músicas disponíveis.
 
-📦 Requisitos
-Python 3.12+
+- 📁 **Playlists**  
+  Crie, edite e exclua playlists com músicas personalizadas.
 
-pygame (para reprodução de áudio)
+- 🕘 **Histórico**  
+  Visualize as últimas músicas tocadas.
 
-Instale as dependências com:
+- 🎮 **Controles**  
+  Reproduzir, pausar, parar, avançar, retroceder, ajustar volume e favoritar músicas.
 
-bash
-Copiar
-Editar
+---
+
+## 📦 Requisitos
+
+- Python 3.12 ou superior  
+- Biblioteca `pygame` (para reprodução de áudio)
+
+Para instalar as dependências, execute:
+
 pip install -r requirements.txt
-▶️ Como Executar
-Clone o repositório:
 
-bash
-Copiar
-Editar
+---
+
+## ▶️ Como Executar
+
+1. Clone o repositório:
+
 git clone https://github.com/Murilo056/soundwave-player.git
+
+2. Acesse a pasta do projeto:
+
 cd soundwave-player
-Execute o projeto:
 
-bash
-Copiar
-Editar
+3. Execute o player:
+
 python main.py
-⚙️ Funcionamento Importante
-A reprodução alterna entre biblioteca ou playlist conforme o último clique do usuário:
 
-Se não houver clique anterior, toca músicas variadas da biblioteca.
+---
 
-Se o último clique foi em uma playlist, toca apenas as músicas dessa playlist selecionada.
+## ⚙️ Funcionamento Importante
 
-Para adicionar uma música a uma playlist:
+- O player alterna entre reproduzir músicas da **biblioteca** ou da **playlist** dependendo do último clique do usuário:
 
-Selecione a música na biblioteca.
+  - Se não houve clique anterior, o player toca músicas variadas da biblioteca.
+  
+  - Se o último clique foi numa playlist, o player toca apenas as músicas dessa playlist.
 
-Clique na playlist desejada.
+- **Para adicionar uma música a uma playlist:**
 
-Clique no botão + Música na playlist.
+  1. Selecione a música na biblioteca.
+  
+  2. Clique na playlist desejada.
+  
+  3. Clique no botão **+ Música na playlist**.
 
-Para remover uma música da playlist:
+- **Para remover uma música da playlist:**
 
-Selecione a música dentro da lista de músicas da playlist e clique em Remover da playlist.
+  - Selecione a música na lista da playlist.
+  
+  - Clique no botão **Remover da playlist**.
 
-Para subir ou descer uma música dentro da playlist:
+- **Para ordenar músicas dentro da playlist:**
 
-Selecione a música na lista da playlist e utilize os botões de mover para cima ou para baixo.
+  - Selecione a música na lista da playlist.
+  
+  - Utilize os botões para mover a música para cima ou para baixo.
 
-🧪 Como Rodar os Testes
-Os testes estão na pasta tests/.
+---
 
-Execute todos os testes com:
+## 🧪 Como Rodar os Testes
 
-bash
-Copiar
-Editar
+- Os testes estão localizados na pasta `tests/`.
+
+- Para executar todos os testes, rode o comando:
+
 python -m unittest discover -s tests
-🛠️ Funcionalidades
-🎧 Reproduzir músicas da biblioteca ou playlists
 
-➕ Adicionar novas músicas (copiadas para a pasta assets/)
+---
 
-📝 Criar, editar e excluir playlists
+## 🛠️ Funcionalidades
 
-💾 Salvamento automático de biblioteca, playlists e histórico
+- 🎧 Reprodução de músicas da biblioteca ou playlists.
 
-🔁 Avançar e voltar faixas
+- ➕ Adição de novas músicas (copiadas para a pasta `assets/`).
 
-⏸ Pausar e continuar reprodução
+- 📝 Criação, edição e exclusão de playlists.
 
-⭐ Favoritar músicas e listar apenas favoritas
+- 💾 Salvamento automático da biblioteca, playlists e histórico.
 
-🔊 Controle de volume
+- 🔁 Avançar e voltar faixas.
+
+- ⏸ Pausar e continuar reprodução.
+
+- ⭐ Favoritar músicas e listar apenas favoritas.
+
+- 🔊 Controle de volume.
