@@ -80,11 +80,16 @@ python main.py
 
 ## 🧪 Como Rodar os Testes
 
-- Os testes estão localizados na pasta `tests/`.
+Os testes automatizados estão localizados na pasta `soundwave/tests/` e cobrem funcionalidades principais como a biblioteca de músicas, histórico e integração com o player.
 
-- Para executar todos os testes, rode o comando:
+### 📦 Pré-requisitos
 
-python -m unittest discover -s tests
+Certifique-se de estar na **raiz do projeto** e que o Python 3 esteja instalado corretamente.
+
+### ▶️ Comando para executar todos os testes
+
+```bash
+python -m unittest discover -s soundwave/tests
 
 ---
 
