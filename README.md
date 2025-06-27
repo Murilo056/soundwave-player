@@ -48,6 +48,8 @@ python soundwave/main.py
 
 ## ⚙️ Funcionamento Importante
 
+-- Se estiver a **biblioteca** e quiser ir para uma **platlist**, PARE a REPRODUÇÃO primeiro
+
 - O player alterna entre reproduzir músicas da **biblioteca** ou da **playlist** dependendo do último clique do usuário:
 
   - Se não houve clique anterior, o player toca músicas variadas da biblioteca.
