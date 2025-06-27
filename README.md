@@ -90,7 +90,7 @@ Certifique-se de estar na **raiz do projeto** e que o Python 3 esteja instalado 
 
 ```bash
 python -m unittest discover -s soundwave/tests
-
+```
 ---
 
 ## 🛠️ Funcionalidades
