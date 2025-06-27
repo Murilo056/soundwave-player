@@ -355,7 +355,7 @@ class MainWindow:
         selection = self.listbox.curselection()
         if not selection:
             return
-        raw = self.listbox.get(selection[0]).replace(" ❤️", "").strip()
+        raw = self.listbox.get(selection[0]).replace("❤️", "").strip()
         for m in self.library.in_order_list():
             if m.title == raw:
                 m.is_favorite = not getattr(m, "is_favorite", False)
